@@ -7,6 +7,7 @@
 
 import SwiftUI
 import AppKit
+import ScreenCaptureKit
 
 
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -28,25 +29,24 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func constructMenu() {
         let menu = NSMenu()
-        
-        menu.addItem(NSMenuItem(title: "Upgrade to Premium", action: #selector(AppDelegate.menuOption1), keyEquivalent: ""))
+        let streamDisplayMenuItem = NSMenuItem(title: "Stream Display", action: #selector(AppDelegate.selectPortion), keyEquivalent: "A")
+        streamDisplayMenuItem.keyEquivalentModifierMask = [.control]
+        menu.addItem(streamDisplayMenuItem)
         menu.addItem(NSMenuItem.separator())
-        menu.addItem(NSMenuItem(title: "ChatGPT", action: #selector(AppDelegate.menuOption2), keyEquivalent: ""))
-        menu.addItem(NSMenuItem(title: "Screen recognition", action: #selector(AppDelegate.menuOption2), keyEquivalent: ""))
-        menu.addItem(NSMenuItem(title: "Website", action: #selector(AppDelegate.menuOption2), keyEquivalent: ""))
+        menu.addItem(NSMenuItem(title: "AbandonAI", action: #selector(AppDelegate.abandonai), keyEquivalent: ""))
         menu.addItem(NSMenuItem.separator())
         menu.addItem(NSMenuItem(title: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
 
         statusBarItem.menu = menu
     }
     
-    @objc func menuOption1() {
-        // Handle Option 1
-        print("Option 1 Selected")
+    @objc func selectPortion() {
+        print("selectPortion")
     }
     
-    @objc func menuOption2() {
-        // Handle Option 2
-        print("Option 2 Selected")
+    @objc func abandonai() {
+        if let url = URL(string: "https://app.abandon.ai/") {
+            NSWorkspace.shared.open(url)
+        }
     }
 }
