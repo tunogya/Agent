@@ -11,6 +11,7 @@
 		17E38E8F2B2211AF00217E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E38E8E2B2211AF00217E82 /* Assets.xcassets */; };
 		17E38E922B2211AF00217E82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E38E912B2211AF00217E82 /* Preview Assets.xcassets */; };
 		17E38E9A2B22214300217E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E38E992B22214300217E82 /* AppDelegate.swift */; };
+		17E38E9E2B22CC1A00217E82 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 17E38E9D2B22CC1A00217E82 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		17E38E8E2B2211AF00217E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17E38E912B2211AF00217E82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17E38E992B22214300217E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17E38E9D2B22CC1A00217E82 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		17E38E872B2211AE00217E82 /* Agent */ = {
 			isa = PBXGroup;
 			children = (
+				17E38E9D2B22CC1A00217E82 /* Localizable.xcstrings */,
 				17E38E882B2211AE00217E82 /* agentApp.swift */,
 				17E38E992B22214300217E82 /* AppDelegate.swift */,
 				17E38E8E2B2211AF00217E82 /* Assets.xcassets */,
@@ -109,6 +112,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 17E38E7C2B2211AE00217E82;
 			productRefGroup = 17E38E862B2211AE00217E82 /* Products */;
@@ -127,6 +131,7 @@
 			files = (
 				17E38E922B2211AF00217E82 /* Preview Assets.xcassets in Resources */,
 				17E38E8F2B2211AF00217E82 /* Assets.xcassets in Resources */,
+				17E38E9E2B22CC1A00217E82 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +277,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Agent/Agent.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -303,6 +309,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Agent/Agent.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;

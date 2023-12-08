@@ -29,13 +29,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func constructMenu() {
         let menu = NSMenu()
-        let streamDisplayMenuItem = NSMenuItem(title: "Stream Display", action: #selector(AppDelegate.selectPortion), keyEquivalent: "A")
-        streamDisplayMenuItem.keyEquivalentModifierMask = [.control]
-        menu.addItem(streamDisplayMenuItem)
+        menu.addItem(NSMenuItem(title: NSLocalizedString("New Movie Recording", comment: "New Movie Recording"), action: #selector(AppDelegate.selectPortion), keyEquivalent: ""))
+        menu.addItem(NSMenuItem(title: NSLocalizedString("New Audio Recording", comment: "New Audio Recording"), action: #selector(AppDelegate.selectPortion), keyEquivalent: ""))
+        menu.addItem(NSMenuItem(title: NSLocalizedString("New Screen Recording", comment: "New Screen Recording"), action: #selector(AppDelegate.selectPortion), keyEquivalent: ""))
         menu.addItem(NSMenuItem.separator())
         menu.addItem(NSMenuItem(title: "AbandonAI", action: #selector(AppDelegate.abandonai), keyEquivalent: ""))
         menu.addItem(NSMenuItem.separator())
-        menu.addItem(NSMenuItem(title: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
+        menu.addItem(NSMenuItem(title: NSLocalizedString("Quit", comment: "Quit"), action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
 
         statusBarItem.menu = menu
     }
