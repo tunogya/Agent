@@ -1,53 +1,18 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "New Audio Recording" : {
-      "comment" : "New Audio Recording",
+    "Abandon Inc. %@%@" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "New Audio Recording"
+            "state" : "new",
+            "value" : "Abandon Inc. %1$@%2$@"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "新建音频录制"
-          }
-        }
-      }
-    },
-    "New Movie Recording" : {
-      "comment" : "New Movie Recording",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "New Movie Recording"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "新建视频录制"
-          }
-        }
-      }
-    },
-    "New Screen Recording" : {
-      "comment" : "New Screen Recording",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "New Screen Recording"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "新建录屏"
+            "value" : "Abandon Inc. %1$@%2$@"
           }
         }
       }
@@ -65,6 +30,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "退出"
+          }
+        }
+      }
+    },
+    "Screen Capture" : {
+      "comment" : "Screen Capture",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Screen Capture"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "屏幕截屏"
+          }
+        }
+      }
+    },
+    "Screen Recording" : {
+      "comment" : "Screen Recording",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Screen Recording"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "屏幕录制"
           }
         }
       }

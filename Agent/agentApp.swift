@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SwiftData
+import Foundation
 
 @main
 struct agentApp: App {
