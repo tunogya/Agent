@@ -51,13 +51,13 @@
         }
       }
     },
-    "Screen Recording" : {
-      "comment" : "Screen Recording",
+    "Screen Record" : {
+      "comment" : "Screen Record",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Screen Recording"
+            "value" : "Screen Record"
           }
         },
         "zh-Hans" : {

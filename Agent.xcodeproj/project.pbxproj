@@ -11,7 +11,7 @@
 		17CE8A0F2B24BF8900C7AE35 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE8A0E2B24BF8900C7AE35 /* Types.swift */; };
 		17CE8A112B24C0B300C7AE35 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE8A102B24C0B300C7AE35 /* Preferences.swift */; };
 		17CE8A132B24C32100C7AE35 /* Capture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE8A122B24C32100C7AE35 /* Capture.swift */; };
-		17CE8A152B24C36F00C7AE35 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE8A142B24C36F00C7AE35 /* Recording.swift */; };
+		17CE8A152B24C36F00C7AE35 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE8A142B24C36F00C7AE35 /* Record.swift */; };
 		17E38E892B2211AE00217E82 /* agentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E38E882B2211AE00217E82 /* agentApp.swift */; };
 		17E38E8F2B2211AF00217E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E38E8E2B2211AF00217E82 /* Assets.xcassets */; };
 		17E38E922B2211AF00217E82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E38E912B2211AF00217E82 /* Preview Assets.xcassets */; };
@@ -24,7 +24,7 @@
 		17CE8A0E2B24BF8900C7AE35 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		17CE8A102B24C0B300C7AE35 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		17CE8A122B24C32100C7AE35 /* Capture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capture.swift; sourceTree = "<group>"; };
-		17CE8A142B24C36F00C7AE35 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		17CE8A142B24C36F00C7AE35 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		17E38E852B2211AE00217E82 /* Agent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E38E882B2211AE00217E82 /* agentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agentApp.swift; sourceTree = "<group>"; };
 		17E38E8E2B2211AF00217E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,10 +69,10 @@
 				17CE8A0C2B24B97D00C7AE35 /* Menu.swift */,
 				17CE8A0E2B24BF8900C7AE35 /* Types.swift */,
 				17CE8A102B24C0B300C7AE35 /* Preferences.swift */,
+				17CE8A122B24C32100C7AE35 /* Capture.swift */,
+				17CE8A142B24C36F00C7AE35 /* Record.swift */,
 				17E38E8E2B2211AF00217E82 /* Assets.xcassets */,
 				17E38E902B2211AF00217E82 /* Preview Content */,
-				17CE8A122B24C32100C7AE35 /* Capture.swift */,
-				17CE8A142B24C36F00C7AE35 /* Recording.swift */,
 			);
 			path = Agent;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 				17E38E9A2B22214300217E82 /* AppDelegate.swift in Sources */,
 				17CE8A112B24C0B300C7AE35 /* Preferences.swift in Sources */,
 				17E38E892B2211AE00217E82 /* agentApp.swift in Sources */,
-				17CE8A152B24C36F00C7AE35 /* Recording.swift in Sources */,
+				17CE8A152B24C36F00C7AE35 /* Record.swift in Sources */,
 				17CE8A0F2B24BF8900C7AE35 /* Types.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

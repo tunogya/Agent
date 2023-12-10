@@ -8,7 +8,7 @@
 import Foundation
 
 extension AppDelegate {
-    @objc func prepScreenRecording() {
+    @objc func prepScreenRecord() {
         print("newVideoRecording")
     }
 }

@@ -13,26 +13,21 @@ extension AppDelegate: NSMenuDelegate {
         menu.delegate = self
         
         menu.addItem(NSMenuItem(title: NSLocalizedString("Screen Capture", comment: "Screen Capture"), action: #selector(prepScreenCapture), keyEquivalent: ""))
-        menu.addItem(NSMenuItem(title: NSLocalizedString("Screen Recording", comment: "Screen Recording"), action: #selector(prepScreenRecording), keyEquivalent: ""))
+        menu.addItem(NSMenuItem(title: NSLocalizedString("Screen Record", comment: "Screen Record"), action: #selector(prepScreenRecord), keyEquivalent: ""))
         menu.addItem(NSMenuItem.separator())
         menu.addItem(NSMenuItem(title: "History", action: #selector(openHistory), keyEquivalent: ""))
-        menu.addItem(NSMenuItem(title: "Preferences…", action: #selector(openPreferences), keyEquivalent: ","))
+        menu.addItem(NSMenuItem(title: "Preferences", action: #selector(openPreferences), keyEquivalent: ","))
         menu.addItem(NSMenuItem.separator())
         menu.addItem(NSMenuItem(title: NSLocalizedString("Quit", comment: "Quit"), action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
 
         statusItem.menu = menu
     }
-
-    
-
     
     @objc func openHistory() {
         if let url = URL(string: "https://app.abandon.ai/") {
             NSWorkspace.shared.open(url)
         }
     }
-    
-
     
     func updateStatusIcon() {
         if let button = statusItem.button {
